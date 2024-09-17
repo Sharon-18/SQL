@@ -1,0 +1,18 @@
+//To create a database 
+CREATE schema StudentDB
+
+//To create a table
+CREATE table Student(
+name varchar(50),
+age int,
+marks_scored int
+)
+
+//To add a new column 
+ALTER table Student add column dept varchar(50)
+
+//To change a column name
+ALTER table Student change marsks_scored marks varchar(50)
+
+//To change a data type
+ALTER table Student change age age varchar(50)
