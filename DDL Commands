@@ -16,3 +16,6 @@ ALTER table Student change marsks_scored marks varchar(50)
 
 //To change a data type
 ALTER table Student change age age varchar(50)
+
+//To delete the Table
+DROP Student
