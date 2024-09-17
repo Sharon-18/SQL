@@ -1,0 +1,17 @@
+//To create table
+CREATE table Student(
+name varchar(50),
+age int
+)
+
+//To insert values into table
+INSERT into Student values("Rani",10)
+
+//To change the value
+UPDATE Student age=15 WHERE age=10
+
+//To view table
+SELECT * FROM STUDENT
+
+//To delete a column in a tabe
+DELETE FROM Student WHERE name = "Rani"
