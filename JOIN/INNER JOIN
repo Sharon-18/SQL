@@ -1,0 +1,13 @@
+use basic 
+CREATE TABLE student(
+name varchar(50)
+age int,
+std_id int
+)
+insert into student values ("sharon",12,101),("asha",13,102),("pikachu","15",103)
+CREATE TABLE score(
+score int,
+std_id int
+)
+insert into score values (50,101),(65,102),(50,103)
+select student.name,score.score from student Inner Join score on student.std_id = score.std_id
