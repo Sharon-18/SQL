@@ -1,0 +1,6 @@
+//Write an SQL query to delete a row from the 'Customers' table where the 'customer_id' is 304 and display the remaining records with 'customer_id' in ascending order.
+
+DELETE FROM Customers
+WHERE customer_id = 5;
+
+select customer_id from Customers ORDER BY customer_id asc;
