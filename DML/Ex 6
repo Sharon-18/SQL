@@ -1,0 +1,9 @@
+Write a query to insert 5 records to the table 'userdetails' and print the number of records.
+
+INSERT INTO userdetails values(101,'Smith','J','smith@gmail.com','smithj@gmail.com','Smith101','Smith101','CSE');
+INSERT INTO userdetails values(102,'Saroj','M','saroj@gmail.com','sarojm@gmail.com','Saroj102','Saroj102','EEE');
+INSERT INTO userdetails values(103,'Nivin','G','nivin@gmail.com','niving@gmail.com','Nivin103','Nivin103','ECE');
+INSERT INTO userdetails values(104,'Geroge','M','geroge@gmail.com','gerogem@gmail.com','Geroge104','Geroge104','CSE');
+INSERT INTO userdetails values(105,'Santhosh','J','santhosh@gmail.com','santhosh@gmail.com','Santhosh105','Santhosh105','ECE');
+
+
