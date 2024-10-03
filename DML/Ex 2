@@ -1,0 +1,3 @@
+//Write an SQL Query to retrieve all attributes (ID, NAME, COUNTRYCODE, DISTRICT, and POPULATION) of every city in the CITY table where the COUNTRYCODE is 'JPN' (representing Japan).
+
+SELECT * FROM CITY WHERE COUNTRYCODE ="JPN";
