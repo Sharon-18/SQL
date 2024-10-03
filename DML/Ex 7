@@ -1,0 +1,4 @@
+
+Write a SQL query to display the individual departments in a Table Employee.
+
+select DISTINCT department from Employee ORDER BY department;
