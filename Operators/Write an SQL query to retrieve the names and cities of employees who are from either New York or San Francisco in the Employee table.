@@ -1,0 +1,1 @@
+select name,city from Employee where City IN('New York','San Francisco');
